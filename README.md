@@ -18,7 +18,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+add gem in Gemfile
+gem 'qvem'
+
+run
+bundle install
+
+add following line to application.js
+//= require rails-qvem
+
+add following line to application.css
+ *= require jquery.qtip
 
 ## Contributing
 
