@@ -617,3 +617,7 @@
 .qtipmodal-ie6fix{
     position: absolute !important;
 }
+
+.field_with_error input, .field_with_error textarea{
+    border: 1px solid red;
+}

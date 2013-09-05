@@ -8,11 +8,11 @@ Gem::Specification.new do |gem|
   gem.version       = Qvem::VERSION
   gem.authors       = ["Jalendra Bhanarkar"]
   gem.email         = ["jbmyid@gmail.com"]
-  gem.description   = "Display error messages in qtips for all rails erros and jquery validation errors"
+  gem.description   = "Display error messages in qtips(tooltip) for all rails erros and jquery validation errors"
   gem.summary       = "Display error messages in qtips for all rails erros and jquery validation errors"
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/jbmyid/qvem"
   gem.license       = "MIT"
-  
+
   gem.files         = Dir["README.md", "LICENSE", "Rakefile", "vendor/**/*","config/**/*", "lib/**/*"]
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
