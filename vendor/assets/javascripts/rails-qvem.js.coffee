@@ -31,8 +31,8 @@ $ ->
   $.validator.setDefaults({
     errorPlacement: (error, element) ->
       a = $.map error, (v) -> $(v).html()
-      $.each a, (i,v) ->
-        a[i] = v + $(element).data("fieldname").split("_").join(" ") if v=="Please enter "
+      #$.each a, (i,v) ->
+      #  a[i] = v + $(element).data("fieldname").split("_").join(" ") if v=="Please enter "
       $(element).attr("data-error",a.join())
       $(element).qtip({
         content:
@@ -54,6 +54,3 @@ $ ->
             color: "#222"
       })
   });
-  jQuery.extend(jQuery.validator.messages, {
-    required: "Please enter "
-  })

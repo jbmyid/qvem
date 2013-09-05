@@ -618,6 +618,6 @@
     position: absolute !important;
 }
 
-.field_with_error input, .field_with_error textarea{
+.field_with_error input, .field_with_error textarea, input.error, textarea.error{
     border: 1px solid red;
 }
