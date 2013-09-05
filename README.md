@@ -19,16 +19,20 @@ Or install it yourself as:
 ## Usage
 
 add gem in Gemfile
-gem 'qvem'
+
+	gem 'qvem'
 
 run
-bundle install
+
+	bundle install
 
 add following line to application.js
-//= require rails-qvem
+
+	//= require rails-qvem
 
 add following line to application.css
- *= require jquery.qtip
+
+	*= require jquery.qtip
 
 ## Contributing
 
